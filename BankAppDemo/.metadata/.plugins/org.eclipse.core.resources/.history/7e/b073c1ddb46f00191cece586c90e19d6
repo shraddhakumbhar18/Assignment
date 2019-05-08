@@ -1,0 +1,14 @@
+package com.capgemini.bankapp.service;
+
+import com.capgemini.bankapp.entity.BankAccount;
+
+public interface BankAccountService 
+{
+	public BankAccount addNew(BankAccount account);
+	public BankAccount getById(int id);
+	//List<BankAccount> getAll();
+	public BankAccount update(int id);
+	public BankAccount delete(int id);
+	public BankAccount getAccountDetails(BankAccount account);
+	
+}

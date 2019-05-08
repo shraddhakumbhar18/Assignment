@@ -1,0 +1,27 @@
+package com.capgemini.bankapp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.capgemini.bankapp.entity.BankAccount;
+import com.capgemini.bankapp.service.BankAccountService;
+
+@RestController
+public class BankAccountController 
+{
+	@Autowired
+	BankAccountService service;
+	
+	@PostMapping("/account")
+	public ResponseEntity<BankAccount> addNewAccount()
+	{
+		BankAccount account = new BankAccount();
+		service.addNew(account);
+ 		return account;
+		
+	}
+	
+	
+}

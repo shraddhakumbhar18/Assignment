@@ -1,0 +1,18 @@
+package com.capgemini.bankapp.entity;
+
+public class SavingAccount extends BankAccount
+{
+	private boolean salary;
+
+	public SavingAccount() {
+		super();
+	}
+
+	public SavingAccount(String accountHolderName, double accountBalance, boolean salary) 
+	{
+		super(accountHolderName, accountBalance);
+		this.salary=salary;
+	}
+	
+	
+}

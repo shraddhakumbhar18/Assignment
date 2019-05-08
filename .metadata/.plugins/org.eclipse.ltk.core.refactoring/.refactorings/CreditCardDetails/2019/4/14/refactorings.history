@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ServletConfigController.java&apos; to &apos;ServletConfig/src&apos;&#x0D;&#x0A;- Original project: &apos;CreditCardDetails&apos;&#x0D;&#x0A;- Destination element: &apos;ServletConfig/src&apos;&#x0D;&#x0A;- Original element: &apos;com.capgemini.controller.ServletConfigController.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=ServletConfig/src" element1="/src&lt;com.capgemini.controller{ServletConfigController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1554213682066" units="1" version="1.0"/>
+</session>

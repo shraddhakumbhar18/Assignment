@@ -1,0 +1,45 @@
+package com.capgemini.bankapp.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.bankapp.dao.BankAccountDao;
+import com.capgemini.bankapp.entity.BankAccount;
+
+@Service
+public class BankAccountServiceImpl implements BankAccountService
+{
+
+	@Autowired
+	private BankAccountDao dao;
+	
+	@Override
+	public void addNew(BankAccount account) {
+		dao.addNew(account);
+	}
+
+	@Override
+	public void update(BankAccount account) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int accountNumber) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public BankAccount getAccountDetails(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public BankAccount getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

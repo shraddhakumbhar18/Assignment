@@ -1,0 +1,5 @@
+package com.capgemini.springbootmicroservicecurrencyconversion.service;
+
+public interface CurrencyExchangeServiceProxy {
+
+}

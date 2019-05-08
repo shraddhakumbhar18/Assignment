@@ -1,0 +1,5 @@
+package com.capgemini.springbootmicroserviceforexservice.entity;
+
+public class ExchangeValue {
+
+}

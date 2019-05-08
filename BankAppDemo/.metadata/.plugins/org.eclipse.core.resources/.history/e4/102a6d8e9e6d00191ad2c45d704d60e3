@@ -1,0 +1,60 @@
+package com.capgemini.bankapp.entity;
+
+public class BankAccount 
+{
+	private int accountName;
+	private String accountHolderName;
+	private double accountBalance;
+	
+	
+	public BankAccount() {
+		super();
+	}
+
+
+	public BankAccount(int accountName, String accountHolderName, double accountBalance) {
+		super();
+		this.accountName = accountName;
+		this.accountHolderName = accountHolderName;
+		this.accountBalance = accountBalance;
+	}
+
+
+	public int getAccountName() {
+		return accountName;
+	}
+
+
+	public void setAccountName(int accountName) {
+		this.accountName = accountName;
+	}
+
+
+	public String getAccountHolderName() {
+		return accountHolderName;
+	}
+
+
+	public void setAccountHolderName(String accountHolderName) {
+		this.accountHolderName = accountHolderName;
+	}
+
+
+	public double getAccountBalance() {
+		return accountBalance;
+	}
+
+
+	public void setAccountBalance(double accountBalance) {
+		this.accountBalance = accountBalance;
+	}
+
+
+	@Override
+	public String toString() {
+		return "BankAccount [accountName=" + accountName + ", accountHolderName=" + accountHolderName
+				+ ", accountBalance=" + accountBalance + "]";
+	}
+	
+	
+}

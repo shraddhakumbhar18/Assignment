@@ -1,0 +1,10 @@
+
+Hi , I am working in capgemini. My Hometown is nashik
+
+Hi, I live in mumbai.
+
+
+Git  is a distributed version-control system for tracking changes in source code during software development.
+It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. 
+Its goals include speed, data integrity, and support for distributed, non-linear workflows. Hi, I love my capgemini.
+Hi my name is shraddha.

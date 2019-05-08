@@ -1,0 +1,13 @@
+package com.capgemini.spring.mvc.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HelloController 
+{
+	@RequestMapping("/hello")
+	public String sayHello()
+	{
+		return "Hello";
+	}
+}

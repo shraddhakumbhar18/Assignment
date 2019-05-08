@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Core Java\Day2Assignment\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3705126329.index
+\bank-app-web\src
+C:\Core Java\Day2Assignment\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1834731355.index
+\CurrencyConverter\src
+C:\Core Java\Day2Assignment\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2709939195.index
+\CreditCardDetails\src

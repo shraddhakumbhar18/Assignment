@@ -1,0 +1,22 @@
+package com.capgemini.spring.mvc.controller;
+
+public class PersonController 
+{
+	@Controller
+	@RequestMapping("/person")
+	public class PersonController {
+
+		@Autowired
+		private PersonService service;
+		
+		@RequestMapping("/")
+		public String inputPage() {
+			return "input";
+		}
+		@RequestMapping("/new")
+		public String addNewPerson(@RequestParam("personId") int personId, @RequestParam("personName") String personName) {
+			
+			service.addNew(new Person(personId, personName));
+			return "success";
+		}
+}
